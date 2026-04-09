@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DB7A58782F8627CE00407B13 /* ReferenceImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7A58772F8627CE00407B13 /* ReferenceImages.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DB54353D2F856D1200CB031F /* Dreamverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7A58772F8627CE00407B13 /* ReferenceImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ReferenceImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DB7A58762F860B0800407B13 /* Exceptions for "Dreamverse" folder in "Dreamverse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DB54353C2F856D1200CB031F /* Dreamverse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DB54353F2F856D1200CB031F /* Dreamverse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DB7A58762F860B0800407B13 /* Exceptions for "Dreamverse" folder in "Dreamverse" target */,
+			);
 			path = Dreamverse;
 			sourceTree = "<group>";
 		};
@@ -34,6 +52,7 @@
 			children = (
 				DB54353F2F856D1200CB031F /* Dreamverse */,
 				DB54353E2F856D1200CB031F /* Products */,
+				DB7A58772F8627CE00407B13 /* ReferenceImages.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7A58782F8627CE00407B13 /* ReferenceImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +275,12 @@
 				DEVELOPMENT_TEAM = A4GYXQZSPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dreamverse/Info.plist;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use Bluetooth to connect to BaseKits";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Use Bluetooth to connect to BaseKits";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera Devicies to get full Augment Reality Experience";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +310,12 @@
 				DEVELOPMENT_TEAM = D329YG8D89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dreamverse/Info.plist;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use Bluetooth to connect to BaseKits";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Use Bluetooth to connect to BaseKits";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera Devicies to get full Augment Reality Experience";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
